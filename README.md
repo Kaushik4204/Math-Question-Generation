@@ -13,7 +13,7 @@ This project automates the generation of math questions with structured tagging,
 
 4.Outputs questions into a well-formatted Word (.docx) document.
 
-4.Ensures clean option lists, bolds correct answers, and provides explanations.
+5.Ensures clean option lists, bolds correct answers, and provides explanations.
 ---
 ### Project Structure
 
