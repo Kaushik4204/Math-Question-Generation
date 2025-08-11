@@ -97,6 +97,7 @@ The pipeline handles generating questions and formatting them into a document au
 Check the images/ folder for any generated images linked to questions.
 
 The final .docx report is stored under output/generated_questions.docx.
+
 ---
 
 ## Dependencies
@@ -116,7 +117,7 @@ regex — For regex operations.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
+---
 ## Contact
 For any questions or suggestions, please reach out to:
 
