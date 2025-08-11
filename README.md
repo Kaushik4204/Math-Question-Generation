@@ -78,14 +78,14 @@ Rename .env.example to .env (if you have one) or create a .env file in the root.
 Add your Gemini API key:
 GEMINI_API_KEY=your_api_key_here
 
-Run the main script
+### Run the main script
 
 ```bash
 python main.py
 
 ```
-
 This will generate math questions, create images where required, and save a Word document in the output/ folder.
+
 ---
 
 ## Usage
