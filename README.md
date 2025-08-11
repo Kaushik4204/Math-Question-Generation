@@ -2,18 +2,19 @@
 ---
 ## Overview
 This project automates the generation of math questions with structured tagging, image generation for questions, and exports the final output to a formatted Word document. It leverages Google Gemini API for generating questions and images, providing an efficient workflow for creating math quizzes or practice problems.
+---
 
 ### Features
-Generates math questions from a base JSON file using AI.
+1.Generates math questions from a base JSON file using AI.
 
-Parses tagged question strings into structured data.
+2.Parses tagged question strings into structured data.
 
-Supports optional image generation per question.
+3.Supports optional image generation per question.
 
-Outputs questions into a well-formatted Word (.docx) document.
+4.Outputs questions into a well-formatted Word (.docx) document.
 
-Ensures clean option lists, bolds correct answers, and provides explanations.
-
+4.Ensures clean option lists, bolds correct answers, and provides explanations.
+---
 ### Project Structure
 
 math-question-generator/
@@ -46,8 +47,9 @@ math-question-generator/
 
 └── README.md
 
-### Setup Instructions
-Clone the repository
+## Setup Instructions
+
+###Clone the repository
 
 ```bash
 git clone https://github.com/Kaushik4204/Math-Question-Generation.git
@@ -63,19 +65,17 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Configure your API key
+### Configure your API key
 
 Rename .env.example to .env (if you have one) or create a .env file in the root.
 
 Add your Gemini API key:
-
-
 GEMINI_API_KEY=your_api_key_here
 
 Run the main script
@@ -86,8 +86,9 @@ python main.py
 ```
 
 This will generate math questions, create images where required, and save a Word document in the output/ folder.
+---
 
-Usage
+## Usage
 Modify your base questions JSON file in the data/ folder to add or update question templates.
 
 The pipeline handles generating questions and formatting them into a document automatically.
@@ -95,8 +96,9 @@ The pipeline handles generating questions and formatting them into a document au
 Check the images/ folder for any generated images linked to questions.
 
 The final .docx report is stored under output/generated_questions.docx.
+---
 
-Dependencies
+## Dependencies
 
 google-generativeai — Gemini API Python client for generating questions and images.
 
@@ -108,13 +110,15 @@ requests — For HTTP requests (if needed).
 
 regex — For regex operations.
 
+---
 
-License
+
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+## Contact
 For any questions or suggestions, please reach out to:
 
 Kaushik Puli
 GitHub: Kaushik4204
-Email: your-email@example.com
+Email: your- kaushikpuli04@gmail.com
