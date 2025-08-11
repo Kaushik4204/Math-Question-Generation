@@ -49,7 +49,7 @@ math-question-generator/
 
 ## Setup Instructions
 
-###Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/Kaushik4204/Math-Question-Generation.git
